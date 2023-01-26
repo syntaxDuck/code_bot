@@ -2,10 +2,9 @@ import discord
 from discord.ext import commands
 
 import os
-from dotenv import load_dotenv
-from datetime import datetime
+# from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 TOKEN = os.getenv('BOT_TOKEN')
 GUILD = os.getenv('DISCORD_SERVER')
 
